@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "486406786024",
+    "firebase_url": "https://xbet-17a4f-default-rtdb.firebaseio.com",
+    "project_id": "xbet-17a4f",
+    "storage_bucket": "xbet-17a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486406786024:android:8c7144de36888f7614725d",
+        "android_client_info": {
+          "package_name": "ic.lakayy.betbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486406786024-do1l11hrboq88d2430q80n2h5iq4kgff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRrSZb8DS8CXLEOZdlFdYXufD12pGUUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486406786024-do1l11hrboq88d2430q80n2h5iq4kgff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486406786024:android:c8fe106427e202c414725d",
+        "android_client_info": {
+          "package_name": "ic.lakayy.xxbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486406786024-do1l11hrboq88d2430q80n2h5iq4kgff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRrSZb8DS8CXLEOZdlFdYXufD12pGUUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486406786024-do1l11hrboq88d2430q80n2h5iq4kgff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486406786024:android:8a5fcaf91ff2e61614725d",
+        "android_client_info": {
+          "package_name": "ic.saeroyi.dbpub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486406786024-do1l11hrboq88d2430q80n2h5iq4kgff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRrSZb8DS8CXLEOZdlFdYXufD12pGUUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486406786024-do1l11hrboq88d2430q80n2h5iq4kgff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
