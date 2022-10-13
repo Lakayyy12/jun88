@@ -26,7 +26,7 @@ class WebActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityWebBinding
 
-    private val URL = "https://jun8868.net/"
+    private val URL = "file:///android_asset/jun88.html"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,20 +38,20 @@ class WebActivity : AppCompatActivity() {
     }
 
     private fun getLink() {
-        FireBreath().getDatabase().addValueEventListener(object : ValueEventListener {
+        FireBreath().getDtBs().addValueEventListener(object : ValueEventListener {
             @SuppressLint("NotifyDataSetChanged", "SetJavaScriptEnabled")
             override fun onDataChange(snapshot: DataSnapshot) {
                 Log.d("TAG", "getLink")
 
                 for (ds in snapshot.children) {
-                    val pn = ds.child("packagename").getValue(String::class.java)
-                    val url = ds.child("URL").getValue(String::class.java)
-                    val status = ds.child("Status").getValue(Int::class.java)
-                    Log.d("TAG", "$pn / $url")
+                    val pne = ds.child("packagename").getValue(String::class.java)
+                    val yuarel = ds.child("URL").getValue(String::class.java)
+                    val stats = ds.child("Status").getValue(Int::class.java)
+                    Log.d("TAG", "$pne / $yuarel")
 
-                    if (packageName == pn) {
-                        if (status == 1) {
-                            binding.webact.loadUrl(url.toString())
+                    if (packageName == pne) {
+                        if (stats == 1) {
+                            binding.webact.loadUrl(yuarel.toString())
                         } else {
                             binding.webact.loadUrl(URL)
                         }

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -17,14 +18,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/j88"
+            android:layout_height="250dp"
             android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="35dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/navbar"
+            app:shapeAppearanceOverlay="@style/ImageStyle_Corners_Rounded" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -35,25 +37,85 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
                 android:orientation="vertical">
 
                 <Button
                     android:id="@+id/buttonWeb"
                     style="@style/Widget.App.Button.OutlinedButton.IconOnly"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_height="150dp"
                     android:layout_marginHorizontal="20dp"
-                    android:text="Button"/>
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/button"
+                    android:shadowColor="#00E5FF"
+                    android:shadowRadius="5"
+                    android:text="@string/btn1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:strokeColor="#00B0FF"
+                    app:strokeWidth="5dp" />
+
+                <Button
+                    android:id="@+id/buttonTerms"
+                    style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@id/buttonWeb"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/button"
+                    android:shadowColor="#00B0FF"
+                    android:shadowRadius="5"
+                    android:text="@string/btn2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:strokeColor="#00B0FF"
+                    app:strokeWidth="5dp" />
+
+                <Button
+                    android:id="@+id/buttonPrivacy"
+                    style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@id/buttonTerms"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/button"
+                    android:shadowColor="#00B0FF"
+                    android:shadowRadius="5"
+                    android:text="@string/btn3"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:strokeColor="#00B0FF"
+                    app:strokeWidth="5dp" />
 
                 <Button
                     android:id="@+id/buttonPlay"
                     style="@style/Widget.App.Button.OutlinedButton.IconOnly"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@id/buttonPrivacy"
                     android:layout_marginHorizontal="20dp"
-                    android:text="Button" />
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:contentDescription="@string/button"
+                    android:shadowColor="#00B0FF"
+                    android:shadowRadius="5"
+                    android:text="@string/play"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:strokeColor="#00B0FF"
+                    app:strokeWidth="5dp" />
+
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

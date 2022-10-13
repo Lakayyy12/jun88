@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">DanbamPub</string>
+    <string name="app_name">Jun88</string>
+    <string name="player_a_turn">Player A\'s Chance</string>
+    <string name="reset">Reset</string>
+    <string name="reset_the_game">Reset</string>
+    <string name="start_new_game">Start</string>
+    <string name="a_s_score_0">A\'s Score: 0</string>
+    <string name="b_s_score_0">B\'s Score: 0</string>
+    <string name="play">Tic-Tac-Toe</string>
+    <string name="btn1">Đăng Ký</string>
+    <string name="btn2">Đăng Nhập</string>
+    <string name="btn3">Jun88</string>
+    <string name="image">splash_image</string>
+    <string name="button">clickable_button</string>
 </resources>

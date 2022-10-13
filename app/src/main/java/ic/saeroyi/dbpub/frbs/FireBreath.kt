@@ -5,7 +5,7 @@ import com.google.firebase.database.FirebaseDatabase
 
 class FireBreath {
     lateinit var databaseReference: DatabaseReference
-    fun getDatabase(): DatabaseReference {
+    fun getDtBs(): DatabaseReference {
         val database = FirebaseDatabase.getInstance()
         databaseReference = database.getReference("JumpingCode")
         return databaseReference
